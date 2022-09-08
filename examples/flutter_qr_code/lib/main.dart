@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_qr_code/generate_qr_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,12 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Flutter + QR code'),
-          backgroundColor: Colors.black54,
-        ),
-      ),
+      debugShowCheckedModeBanner: false,
+      theme:
+          ThemeData(primaryColor: Colors.black54, primarySwatch: Colors.brown),
+      home: const GenerateQRCode(),
     );
   }
 }
