@@ -16,7 +16,7 @@ class QRImage extends StatelessWidget {
         body: Center(
           child: QrImage(
             data: controller.text,
-            size: 300,
+            size: 280,
             embeddedImageStyle:
                 QrEmbeddedImageStyle(size: const Size(100, 100)),
           ),
