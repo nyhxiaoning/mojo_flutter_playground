@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,21 +13,40 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Card Widget',
       theme: ThemeData(
-        primarySwatch: Colors.lime,
+        primarySwatch: Colors.indigo,
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Card Widget Demo'),
+          title: const Text('Card Widget Demo',
         ),
-        body:  const Center(
+        centerTitle: true,
+        ),
+        body: Center(
           child: Card(
-            child: SizedBox(
+            color: Colors.purple,
+            elevation: 1,
+            shape: RoundedRectangleBorder(
+              side: BorderSide(
+                color: Theme.of(context).colorScheme.outline,
+              ),
+              borderRadius: const BorderRadius.all(Radius.circular(12)),
+            ),
+            child: const SizedBox(
               height: 300,
               width: 300,
-            child: Center(
-              child: Text("This is a Card")))),
+              child: Center(
+                child: Text(
+                  "This is a Card",
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Colors.white),
+                ),
+              ),
             ),
           ),
+        ),
+      ),
     );
   }
 }
