@@ -1,16 +1,11 @@
 # flutter_qr_code
 
-A new Flutter project.
+A Flutter Demo Example on how to generate QR Code.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+![Simulator Screen Shot - iPhone 13 - 2022-11-13 at 02 37 31](https://user-images.githubusercontent.com/39112051/201529380-10053eff-a9a1-4ecd-8adb-1c2e6a6109ba.png)
 
-A few resources to get you started if this is your first Flutter project:
+Sample GIF Recording
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Simulator Screen Recording - iPhone 13 - 2022-11-13 at 03 30 33](https://user-images.githubusercontent.com/39112051/201529414-a07ab0fd-770b-4fad-ae6d-8832ffbd623c.gif)
