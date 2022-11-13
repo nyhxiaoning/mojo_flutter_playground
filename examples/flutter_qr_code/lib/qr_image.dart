@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:qr_flutter/qr_flutter.dart';
 
+/// This class shows actual rendering of the QR image
+
 class QRImage extends StatelessWidget {
   const QRImage(this.controller, {super.key});
 

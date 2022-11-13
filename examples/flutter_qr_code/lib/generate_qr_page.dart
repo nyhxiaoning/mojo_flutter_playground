@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_qr_code/qr_image.dart';
 
+/// This class shows the UI of the QR Code generation
+
 class GenerateQRCode extends StatefulWidget {
   const GenerateQRCode({super.key});
 
@@ -29,6 +31,7 @@ class GenerateQRCodeState extends State<GenerateQRCode> {
                   border: OutlineInputBorder(), labelText: 'Enter your URL'),
             ),
           ),
+          //This button when pressed navigates to QR code generation
           ElevatedButton(
               onPressed: () async {
                 Navigator.push(
